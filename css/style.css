@@ -9,16 +9,30 @@ body {
 }
 
 
-#grid {
+#container {
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
 }
 
-#grid>div {
+.square {
     border: 1px solid black;
     width: 100px;
     height: 100px;
     padding: 10px;
+}
 
+.Fizz {
+    background-color: aqua;
+    color: black;
+}
+
+.Buzz {
+    background-color: rgb(0, 125, 23);
+    color: black;
+}
+
+.FizzBuzz {
+    background-color: rgb(255, 230, 0);
+    color: rgb(97, 97, 97);
 }
